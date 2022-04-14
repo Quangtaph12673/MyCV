@@ -49,7 +49,7 @@ main {
   margin-top: 2%;
   h2 {
     color: $colorTitle;
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -79,7 +79,7 @@ main {
       display: flex;
       justify-content: center;
       gap: 2%;
-      margin: 0 0 4% 0;
+      margin: 0 0 3% 0;
       position: relative;
       .target,
       .education {
@@ -92,7 +92,7 @@ main {
           position: absolute;
           top: $topLine1;
           left: 5%;
-          font-size: 40px;
+          font-size: 30px;
           background-color: $backgroundTitle;
           padding: 0.5% 1%;
           box-shadow: 0 0 10px $colorText;
@@ -102,7 +102,7 @@ main {
           position: absolute;
           top: $topLine1;
           left: 6%;
-          font-size: 40px;
+          font-size: 30px;
           background-color: $backgroundTitle;
           border-radius: 20px;
           padding: 0.5% 1%;
@@ -139,7 +139,7 @@ main {
       display: flex;
       justify-content: center;
       gap: 2%;
-      margin: 0 0 4% 0;
+      margin: 0 0 3% 0;
 
       .skills,
       .project {
@@ -156,7 +156,7 @@ main {
           position: absolute;
           top: $topLine2;
           left: 7%;
-          font-size: 40px;
+          font-size: 30px;
           background-color: $backgroundTitle;
           border-radius: 20px;
           padding: 0.5% 1%;
@@ -166,7 +166,7 @@ main {
           position: absolute;
           top: $topLine2;
           left: 7%;
-          font-size: 40px;
+          font-size: 30px;
           background-color: $backgroundTitle;
           border-radius: 20px;
           padding: 0.5% 1%;
@@ -257,7 +257,7 @@ main {
         left: 5%;
         background-color: $backgroundTitle;
         border-radius: 20px;
-        padding: 0.5% 1%;
+        padding: 0.8%;
         box-shadow: 0 0 10px $colorText;
       }
       .group-right {
@@ -270,10 +270,11 @@ main {
         .certificate h2 {
           position: absolute;
           top: $topLine3;
-          right: 25%;
+          right: 21%;
           background-color: $backgroundTitle;
           border-radius: 20px;
-          padding: 0.5% 1%;
+          width: auto;
+          padding: 2%;
           box-shadow: 0 0 10px $colorText;
         }
         .certificate {
@@ -296,7 +297,7 @@ main {
           right: 29%;
           background-color: $backgroundTitle;
           border-radius: 20px;
-          padding: 0.5% 1%;
+          padding: 2%;
           box-shadow: 0 0 10px $colorText;
         }
         .interests {

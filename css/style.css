@@ -66,18 +66,18 @@ header .header-introduce .header-left .title-profile {
 }
 
 header .header-introduce .header-left .title-profile #title-name {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: bold;
   text-transform: uppercase;
   color: #ff881c;
-  padding: 20px;
+  padding: 20px 5px;
 }
 
 header .header-introduce .header-left .title-profile .description {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   color: #496c92;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 header .header-introduce .header-right {
@@ -255,7 +255,7 @@ main {
 
 main h2 {
   color: #ff881c;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 main {
@@ -309,7 +309,7 @@ main section div {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 2%;
-  margin: 0 0 4% 0;
+  margin: 0 0 3% 0;
   position: relative;
 }
 
@@ -328,7 +328,7 @@ main section div .education .career-goals {
   position: absolute;
   top: -15%;
   left: 5%;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #faf6c6;
   padding: 0.5% 1%;
   -webkit-box-shadow: 0 0 10px #496c92;
@@ -341,7 +341,7 @@ main section div .education .education-title {
   position: absolute;
   top: -15%;
   left: 6%;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #faf6c6;
   border-radius: 20px;
   padding: 0.5% 1%;
@@ -395,7 +395,7 @@ main section .block-two {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 2%;
-  margin: 0 0 4% 0;
+  margin: 0 0 3% 0;
 }
 
 main section .block-two .skills,
@@ -418,7 +418,7 @@ main section .block-two .project .skills-title {
   position: absolute;
   top: -3%;
   left: 7%;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #faf6c6;
   border-radius: 20px;
   padding: 0.5% 1%;
@@ -431,7 +431,7 @@ main section .block-two .project .project-title {
   position: absolute;
   top: -3%;
   left: 7%;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #faf6c6;
   border-radius: 20px;
   padding: 0.5% 1%;
@@ -565,7 +565,7 @@ main section .information-end .reward h2 {
   left: 5%;
   background-color: #faf6c6;
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 0.8%;
   -webkit-box-shadow: 0 0 10px #496c92;
           box-shadow: 0 0 10px #496c92;
 }
@@ -588,10 +588,11 @@ main section .information-end .group-right {
 main section .information-end .group-right .certificate h2 {
   position: absolute;
   top: -10%;
-  right: 25%;
+  right: 21%;
   background-color: #faf6c6;
   border-radius: 20px;
-  padding: 0.5% 1%;
+  width: auto;
+  padding: 2%;
   -webkit-box-shadow: 0 0 10px #496c92;
           box-shadow: 0 0 10px #496c92;
 }
@@ -616,7 +617,7 @@ main section .information-end .group-right .interests h2 {
   right: 29%;
   background-color: #faf6c6;
   border-radius: 20px;
-  padding: 0.5% 1%;
+  padding: 2%;
   -webkit-box-shadow: 0 0 10px #496c92;
           box-shadow: 0 0 10px #496c92;
 }
